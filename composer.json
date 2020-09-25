@@ -1,0 +1,25 @@
+{
+    "name": "amirmarmul/container-example",
+    "description": "An example of how to create a dependency-resolution-enabled IoC Container.",
+    "type": "example",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "amirmarmul",
+            "email": "amiruddinmarmul@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src"
+        }
+    },
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit"
+        ]
+    }
+}
